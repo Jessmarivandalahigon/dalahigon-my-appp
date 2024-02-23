@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Search</title>
+ 
+  <link rel="stylesheet" href="css/dynamicsearch.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Dynamic Search</h1>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search...">
+      <div class="search-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+          <path fill="none" d="M0 0h24v24H0z"/>
+          <path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l4.25 4.25 1.42-1.42L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+        </svg>
+      </div>
+    </div>
+  
+    <ul id="resultsList">
+      <li>Apple</li>
+      <li>Orange</li>
+      <li>Banana</li>
+      <li>Mango</li>
+      <li>Pineapple</li>
+    </ul>
+    <button onclick="goBack()">Back</button>
+  </div>
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+  <script src="js/dynamicsearch.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
